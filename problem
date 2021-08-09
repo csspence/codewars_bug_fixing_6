@@ -4,7 +4,6 @@ Oh no! Timmy's evalObject function doesn't work. He uses Switch/Cases to evaluat
 */
 
 const evalObject = (value) => {
-  let result = 0;
   switch (value.operation) {
     case '+': return value.a + value.b;
     case '-': return value.a - value.b;
